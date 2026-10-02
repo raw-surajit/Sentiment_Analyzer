@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NOTE ON MODEL FILES: 
+# If your .pkl files are under 100MB, you generally want to track them so you can 
+# deploy this Streamlit app online later. If they are larger than 100MB, GitHub will 
+# block the push, and you should uncomment the line below to ignore them:
+# *.pkl
